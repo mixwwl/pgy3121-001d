@@ -1,0 +1,97 @@
+/* Ventanilla 1 */
+#modal header{
+    padding: 10px;
+    background: #62ff07;
+    color: rgb(201, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px 0px 15px 0px;
+}
+
+#modelc{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(236, 0, 0);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#modelc:hover{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(126, 9, 9);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    
+}
+
+#modal::backdrop{
+    background: rgba(0, 0, 0, .55);
+}
+
+#modal{
+    max-width: 45ch;
+    max-height: 45ch;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px rgb(201, 0, 0) solid;
+    width: 100%;
+    height: 100%;
+}
+
+#modelContenedor1{
+    padding: 30px;
+    
+}
+
+#modelContenido1{
+    background-color: #cfcfcf;
+    border-radius: 15px 0px 15px 0px;
+    
+}
+
+#modelEmail{
+    padding: 10px 10px 0 10px;
+}
+
+#modelEmail input{
+    border-radius: 10px;
+}
+
+#modelPassword{
+    padding: 0 10px 10px 10px;
+}
+
+#modelPassword input{
+    border-radius: 10px;
+}
+
+#btbt button{
+    justify-content: end;
+}
+
+#btbt {
+    background: linear-gradient(135deg , #244e03, #52d805 );
+    color: white;
+    margin-right: 5px;
+    transition: 1s;
+}
+
+#btbt:hover{
+    border-radius: 15px 0px 15px 0px;
+    background: linear-gradient(135deg , #52d805, #244e03 );
+}

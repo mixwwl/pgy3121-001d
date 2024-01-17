@@ -1,0 +1,78 @@
+#fondo2 {
+  
+    background-color: #5cb85c; 
+
+}
+
+#CarritoN {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px auto; /* Ajusta el margen según sea necesario */
+  
+}
+
+#imgMacetero {
+  max-width: 100%;
+  height: 70px;
+  width: 70px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  margin-top: 20px;
+}
+
+#CarritoN h1{
+  border: 2px solid orange;
+  padding: 8px;
+  background: linear-gradient(135deg , orange,  yellow, orange );
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#CarritoN table{
+  background: linear-gradient(135deg ,orange,yellow, orange,  yellow, orange );
+  margin-bottom: 15px;
+}
+
+#CarritoN p{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#CarritoN button{
+  padding: 10px;
+  background: linear-gradient(135deg , orange,  yellow, orange );
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+#CarritoN button:hover{
+  padding: 12px;
+  background: linear-gradient(135deg , yellow,  orange, yellow );
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  border-radius: 15px;
+}

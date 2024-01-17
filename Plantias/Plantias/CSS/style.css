@@ -1,0 +1,20 @@
+h3{
+    color:red;
+}
+
+/* Clases con un . */
+.miH3{ 
+    color: green;
+}
+
+#l1{
+    color: blue;
+}
+
+.box h3,h2{
+    color: chartreuse;
+    
+}
+
+
+

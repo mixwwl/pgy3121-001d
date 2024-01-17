@@ -1,0 +1,22 @@
+
+
+#reloj {
+    font-size: 3em;
+    color: #3d6430; /* Color de la fuente verde oscuro */
+    text-align: center;
+  }
+
+
+#jardineria-icon {
+    max-width: 50px;
+    height: auto;
+    margin-right: 20px; /* Espacio derecho para separar el icono del reloj */
+  }
+
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+  }

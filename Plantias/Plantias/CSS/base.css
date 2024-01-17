@@ -1,0 +1,229 @@
+@import url(cartas.css);
+@import url(iniciarsesion.css);
+@import url(ag.css);
+@import url(stylereloj.css);
+
+#fotoperfil {
+    height: 40px;
+    width: 40px;
+}
+
+#NAN {
+    background-color: #5cb85c;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+
+
+
+#nave {
+    background: linear-gradient(135deg, #44b304, #244e03, #44b304, #244e03, #399604);
+    border-radius: 5px;
+
+}
+
+#Carru {
+    height: 770px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#Carru img {
+    height: 770px;
+    object-fit: cover;
+
+}
+
+
+#ini a {
+    border: 2px solid #000000;
+    border-radius: 15px;
+    color: #000000;
+    margin-right: 15px;
+    width: 260px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 43px;
+    background-color: rgb(250, 176, 15);
+
+}
+
+
+#ini a:hover {
+    border: 2px solid rgb(250, 176, 15);
+    ;
+    border-radius: 15px;
+    color: #ffffff;
+    margin-right: 15px;
+    width: 260px;
+    background-color: orangered;
+}
+
+#ini button {
+    color: rgb(0, 0, 0);
+
+}
+
+#ini button:hover {
+    background-color: orangered;
+    color: white;
+
+}
+
+
+
+
+#cata {
+    margin-left: 10px;
+}
+
+#cata a {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#cata a:hover {
+
+    color: orangered;
+
+}
+
+footer {
+    background: linear-gradient(135deg, orange, yellow, orange);
+}
+
+
+
+
+#cuerpor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px 0px 15px 0px;
+    margin-left: 50px;
+    max-width: 100%;
+    background-color: rgb(250, 176, 15);
+}
+
+#reloj {
+    font-size: 2em;
+    color: #000000;
+    text-align: center;
+}
+
+#jardineria-icon {
+    max-width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#modo {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    align-items: center;
+    width: 100%; /* Puedes ajustar el margen según sea necesario */
+}
+
+#container2 {
+    width: 200px; /* Puedes ajustar el ancho según sea necesario */
+}
+
+#modo button {
+    width: 90%;
+}
+
+
+/* MODO OSCURO */
+
+#NAN.dark-mode  {
+    /* Estilos específicos para el modo oscuro */
+    background-color:#5c5c5c; /* Tu color oscuro aquí */
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;/
+}
+
+
+
+
+/* Estilos específicos para el modo oscuro del botón */
+body.dark-mode .modo-oscuro {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+/* Estilos por defecto (modo claro) del botón */
+body:not(.dark-mode) .modo-oscuro {
+    background-color: rgb(250, 176, 15);
+    color: #000;
+}
+
+/* Estilos específicos para el modo oscuro del reloj y el icono */
+body.dark-mode #cuerpor {
+    background-color: #333; /* Cambiar al color deseado para el modo oscuro */
+    border-color: #d9534f;
+}
+
+body.dark-mode #reloj,
+body.dark-mode #jardineria-icon {
+    color: #ffffff; /* Cambiar al color deseado para el modo oscuro */
+}
+
+/* Estilos por defecto (modo claro) del reloj y el icono */
+body:not(.dark-mode) #cuerpor {
+    background-color: rgb(250, 176, 15);
+}
+
+body:not(.dark-mode) #reloj,
+body:not(.dark-mode) #jardineria-icon {
+    color: #000;
+}
+
+/* Estilos específicos para el modo oscuro del navbar */
+body.dark-mode #nave {
+    background: #000; /* Cambiar al color deseado para el modo oscuro */
+    border-radius: 5px;
+}
+
+body.dark-mode #ini a {
+    color: #ffffff;
+    border-color: orangered;
+}
+
+body.dark-mode #ini a:hover {
+    background-color: orangered;
+    color: #ffffff;
+    border-color: orangered;
+}
+
+body.dark-mode #ini button {
+    color: #ffffff;
+}
+
+body.dark-mode #ini button:hover {
+    background-color: orangered;
+    color: #ffffff;
+}
+
+
+
+
+
+

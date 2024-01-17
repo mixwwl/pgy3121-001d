@@ -1,0 +1,45 @@
+#cuerpo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    margin: 0;
+    
+}
+
+#cuerpoform{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 75px;
+    background: linear-gradient(135deg , orange,  rgb(194, 194, 16), orange );
+}
+
+#cuerpoform label{
+    display: flex;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+#cuerpoform input{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#cuerpoform button{
+    padding: 10px;
+    background: linear-gradient(135deg ,#52d805, #244e03, #52d805 );
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  border-radius: 15px;
+  color: white;
+}
+
+#cuerpoform button:hover{
+    padding: 13px;
+    background: linear-gradient(135deg ,#244e03, #52d805, #244e03 );
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+}

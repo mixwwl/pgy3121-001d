@@ -1,0 +1,91 @@
+#cartas{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    justify-content: space-around;
+    
+    
+}
+
+#cartas button{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    border-radius: 15px;
+    border: 2px solid yellow;
+    background-color: orange;
+
+}
+
+#cartas button:hover{
+    background-color: orangered;
+}
+
+#cartas img{
+    height: 280px;
+    max-width: 100%;
+    border-radius: 15px  15px  0px  0px;
+
+}
+
+#cart1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(135deg , #244e03, #52d805 );
+    border-radius: 15px;
+    border: 2px solid rgb(255, 174, 0);
+}
+
+#cart1:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(135deg , #244e03, #52d805 );
+    border-radius: 15px;
+    border: 2px solid red;
+}
+
+
+#cart1 a{
+    display: block;
+    justify-content: center;
+}
+
+#boton{
+    border-radius: 15px;
+    border: 2px solid yellow;
+    background-color: orange;
+}
+
+#boton:hover{
+    background-color: orangered;
+}
+
+@media (max-width: 768px) {
+    #cartas {
+        flex-direction: column; /* Cambiar a diseño de columna en pantallas más pequeñas */
+    }
+
+    #cartas img {
+        margin-bottom: 10px; /* Espaciado entre las cartas */
+    }
+}
+
+#Acciones a{
+    border-radius: 15px;
+    border: 2px solid yellow;
+    background-color: orange;
+}
+
+#Acciones a:hover{
+    background-color: orangered;
+    color: white;
+
+}
+
+#Acciones li{
+    margin: 10px;
+    
+}
+
+#Acciones ul{
+    background: linear-gradient(135deg , #244e03, #52d805 );
+}
